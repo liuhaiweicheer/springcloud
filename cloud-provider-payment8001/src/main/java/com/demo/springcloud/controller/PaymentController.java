@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 @Slf4j
 @RestController
+@CrossOrigin
 public class PaymentController {
 
     @Autowired
