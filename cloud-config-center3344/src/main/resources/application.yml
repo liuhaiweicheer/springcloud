@@ -8,13 +8,17 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:liuhaiweicheer/springcloud-config.git #GitHub上面的git仓库名字
+#          uri: git@github.com:liuhaiweicheer/springcloud-config.git #GitHub上面的git仓库名字
           ####搜索目录
           search-paths:
              - springcloud-config
-#          default-label: master
+          uri: https://github.com/liuhaiweicheer/springcloud-config.git
+          default-label: master
+          username: liuhaiweicheer
+          password: lhw584521
+      #          default-label: master
       ####读取分支
-      label: master
+#      label: main
 #rabbitmq相关配置
 #rabbitmq:
 #  host: localhost
