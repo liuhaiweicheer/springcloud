@@ -12,3 +12,5 @@
 /cloud-provider-payment8002/target/
 /cloud-provider-payment8004/target/
 /cloud-provider-payment8007/target/
+/.idea/
+/.git/
